@@ -1,3 +1,3 @@
-$('a').click(function(){
-    alert("You are going to open " + $(this).attr('href')+ "Be Aware");
-});
+$('a[href]').addClass('thehackingschool');
+
+$('body').append('<style>.thehackingschool { color: white!important; background:black!important } </style> ');
